@@ -13,9 +13,7 @@
     <meta property="og:image" content="https://punkylawer.github.io/giovanardi-barili/img/logo1.png">
     <meta property="og:url" content="https://punkylawer.github.io/giovanardi-barili/">
     <meta property="og:type" content="website">
-
-    <title>Giovanardi Barili | Consultora y Estudio Jurídico en Mar del Plata</title>
-
+    <title>Estudio Jurídico y Consultora Legal en Mar del Plata | Giovanardi Barili</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -23,6 +21,7 @@
         body {
           font-family: 'Segoe UI', sans-serif;
           padding-top: 70px;
+          background-color: #fdfdfd;
         }
         .section-title {
           color: #0a1f44;
@@ -30,7 +29,7 @@
           margin-bottom: 1rem;
         }
         .footer {
-          background-color: #0a1f44;
+          background-color: #1a1f2b;
           color: white;
           padding: 40px 20px;
           text-align: center;
@@ -38,6 +37,7 @@
         .footer-logo {
           max-width: 140px;
           margin-bottom: 10px;
+          filter: brightness(1.2);
         }
         .btn-primary {
           background-color: #0a1f44;
@@ -51,14 +51,6 @@
           bottom: 20px;
           right: 20px;
           z-index: 999;
-        }
-        .area-box, .diferencial-box {
-          background-color: white;
-          transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-        .area-box:hover, .diferencial-box:hover {
-          transform: translateY(-5px);
-          box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
         }
         .navbar-brand img {
           height: 70px;
@@ -74,7 +66,7 @@
           color: white;
         }
         .hero-section .overlay {
-          background-color: rgba(0, 0, 0, 0.6);
+          background-color: rgba(10, 31, 68, 0.6);
           padding: 2rem;
           border-radius: 1rem;
           text-align: center;
@@ -83,29 +75,26 @@
 </head>
 <body>
 
-<!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top">
     <div class="container">
-        <a class="navbar-brand d-flex align-items-center gap-2" href="index.html#inicio">
-            <img src="img/logo1.png" alt="Logo Giovanardi Barili">
-            <span class="fw-bold text-primary">Giovanardi Barili</span>
+        <a class="navbar-brand" href="#inicio">
+            <img src="img/logo1.png" alt="Consultora y Estudio Jurídico Giovanardi Barili" class="img-fluid d-block">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="index.html#inicio">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link active fw-semibold" href="#inicio">Inicio</a></li>
                 <li class="nav-item"><a class="nav-link" href="areas.html">Áreas</a></li>
                 <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
-                <li class="nav-item"><a class="nav-link" href="index.html#contacto">Contacto</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
             </ul>
         </div>
     </div>
 </nav>
 
-<!-- Hero Section con imagen fija -->
-<section class="hero-section">
+<section id="inicio" class="hero-section">
     <div class="overlay">
         <h1 class="display-5 fw-bold">Consultora y Estudio Jurídico</h1>
         <p class="lead">Planificamos. Resolvemos. Construimos.</p>
@@ -113,25 +102,21 @@
 </section>
 
 
-
 <!-- Nosotros -->
-<section id="nosotros" class="py-5 bg-light">
-    <div class="container text-center">
-        <h2 class="section-title">Quiénes somos</h2>
-        <p class="fs-5">
-            En nuestro <strong>Estudio Jurídico y Arquitectónico Giovanardi Barili</strong> combinamos excelencia jurídica, visión estratégica y conocimiento técnico-normativo para brindar un asesoramiento integral, confiable y eficaz.
+<section id="nosotros" class="py-5 text-white" style="background-image: url('img/bg-equipo.jpg'); background-size: cover; background-position: center; position: relative;">
+    <div style="background-color: rgba(10, 31, 68, 0.8); position: absolute; top: 0; left: 0; right: 0; bottom: 0;"></div>
+    <div class="container text-center position-relative">
+        <h2 class="section-title text-white">Quiénes somos</h2>
+        <p class="fs-5 mb-4">
+            En <strong>Giovanardi Barili</strong> unimos derecho, técnica y gestión para brindar soluciones claras, prácticas y eficientes.
         </p>
-        <p class="fs-5 mt-4">
-            <strong>Luciano</strong>, abogado Magíster en Derecho Empresario, aporta una sólida experiencia en el Derecho Privado, con especialización en redacción de contratos complejos, constitución y asesoramiento societario, fideicomisos de construcción y administración. También interviene en procesos sucesorios, conflictos de familia con implicancias patrimoniales, cobros ejecutivos y desalojos.
-        </p>
-        <p class="fs-5 mt-4">
-            <strong>Alcira</strong>, arquitecta con amplia trayectoria en la función pública como Directora de Obras Privadas de la Municipalidad de General Pueyrredon, posee un profundo conocimiento del urbanismo, los procesos administrativos y las normativas locales. Su capacidad para detectar deficiencias administrativas y proponer soluciones técnicas y legales concretas es clave para prevenir conflictos y destrabar proyectos.
-        </p>
-        <p class="fs-5 mt-4">
-            Juntos ofrecemos una sinergia profesional única, pensada para asistir a desarrolladores, emprendedores, profesionales y ciudadanos en cada etapa de sus proyectos o conflictos. Nuestra visión es clara: brindar soluciones integrales con compromiso, cercanía y excelencia.
-        </p>
+        <a href="nosotros.html" class="btn btn-outline-light btn-lg rounded-pill fw-semibold px-5">
+            Conocé al equipo
+        </a>
     </div>
 </section>
+
+
 
 
 <!-- Áreas de práctica -->
@@ -278,7 +263,6 @@
 <footer class="footer">
     <div class="container text-center">
         <img src="img/logo1.png" alt="Logo Giovanardi Barili" class="footer-logo">
-        <p class="fs-5 fw-semibold mb-1">Planificamos. Resolvemos. Construimos.</p>
         <p class="mb-2">&copy; Consultora y Estudio Jurídico Giovanardi Barili. Todos los derechos reservados.</p>
         <p><a href="mailto:luciano.barili@gmail.com">luciano.barili@gmail.com</a> | <a href="https://wa.me/5492236236159" target="_blank">223 623-6159</a></p>
     </div>
